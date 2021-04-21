@@ -80,6 +80,13 @@ h1 {
     color: hsl(240, 6%, 50%);
     border-bottom: 1.5px solid hsl(240, 5%, 91%);
     padding: 1em 0;
+
+    transition: color .25s;
+}
+
+.accordion-link:hover,
+.accordion-link:focus {
+    color: hsl(14, 88%, 65%);
 }
 
 .accordion-content {
